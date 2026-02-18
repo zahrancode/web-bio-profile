@@ -1,0 +1,181 @@
+[18-Feb-2026 08:23:20 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'x3msg655_3ms-gaming.profile' doesn't exist in /home/x3msg655/public_html/index.php:3
+Stack trace:
+#0 /home/x3msg655/public_html/index.php(3): mysqli_query()
+#1 {main}
+  thrown in /home/x3msg655/public_html/index.php on line 3
+[18-Feb-2026 08:42:24 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 10
+[18-Feb-2026 08:42:24 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 85
+[18-Feb-2026 08:42:24 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 86
+[18-Feb-2026 08:42:24 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 87
+[18-Feb-2026 08:56:01 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 10
+[18-Feb-2026 08:56:01 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 85
+[18-Feb-2026 08:56:01 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 86
+[18-Feb-2026 08:56:01 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 87
+[18-Feb-2026 08:56:47 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 08:56:47 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 08:56:47 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 08:56:47 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 08:57:47 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 08:57:47 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 08:57:47 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 08:57:47 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 08:59:11 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 08:59:11 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 184
+[18-Feb-2026 08:59:11 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 185
+[18-Feb-2026 08:59:11 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 186
+[18-Feb-2026 09:00:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 09:00:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 09:00:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 135
+[18-Feb-2026 09:00:15 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 136
+[18-Feb-2026 09:00:22 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 09:00:22 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 09:00:22 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 135
+[18-Feb-2026 09:00:22 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 136
+[18-Feb-2026 09:00:26 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 09:00:26 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 09:00:26 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 135
+[18-Feb-2026 09:00:26 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 136
+[18-Feb-2026 09:00:31 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 09:00:31 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 09:00:31 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 135
+[18-Feb-2026 09:00:31 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 136
+[18-Feb-2026 09:47:50 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 09:47:50 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 09:47:50 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 135
+[18-Feb-2026 09:47:50 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 136
+[18-Feb-2026 10:04:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 10:04:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 10:04:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 135
+[18-Feb-2026 10:04:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 136
+[18-Feb-2026 10:09:14 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 10:09:14 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 10:09:14 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 135
+[18-Feb-2026 10:09:14 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 136
+[18-Feb-2026 10:14:50 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 14
+[18-Feb-2026 10:14:50 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 122
+[18-Feb-2026 10:14:50 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 124
+[18-Feb-2026 10:14:50 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 129
+[18-Feb-2026 10:46:09 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 14
+[18-Feb-2026 10:46:09 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 122
+[18-Feb-2026 10:46:09 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 124
+[18-Feb-2026 10:46:09 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 129
+[18-Feb-2026 10:50:06 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 14
+[18-Feb-2026 10:50:06 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 122
+[18-Feb-2026 10:50:06 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 124
+[18-Feb-2026 10:50:06 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 129
+[18-Feb-2026 10:57:38 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 10:57:38 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 10:57:38 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 135
+[18-Feb-2026 10:57:38 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 136
+[18-Feb-2026 11:00:20 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 11:00:20 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 184
+[18-Feb-2026 11:00:20 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 185
+[18-Feb-2026 11:00:20 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 186
+[18-Feb-2026 11:01:46 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 11:01:46 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 184
+[18-Feb-2026 11:01:46 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 185
+[18-Feb-2026 11:01:46 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 186
+[18-Feb-2026 11:04:38 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 11:04:38 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 11:04:38 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 135
+[18-Feb-2026 11:04:38 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 136
+[18-Feb-2026 11:05:20 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 11:05:20 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 11:05:20 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 135
+[18-Feb-2026 11:05:20 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 136
+[18-Feb-2026 11:09:52 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 11:09:52 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 11:09:52 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 11:09:52 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 11:12:29 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 11:12:29 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 11:12:29 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 11:12:29 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 12:15:17 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 12:15:17 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 12:15:17 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 12:15:17 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 12:37:02 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 12:37:02 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 12:37:02 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 12:37:02 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 12:40:30 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 12:40:30 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 12:40:30 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 12:40:30 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 12:50:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 12:50:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 12:50:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 12:50:19 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 12:50:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 12:50:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 12:50:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 12:50:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 12:50:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 12:50:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 12:50:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 12:50:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 12:50:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 12:50:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 12:50:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 12:50:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 12:50:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 12:50:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 12:50:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 12:50:27 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 12:50:30 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 12:50:30 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 12:50:30 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 12:50:30 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 12:50:37 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 12:50:37 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 12:50:37 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 12:50:37 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 13:02:59 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 13:02:59 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 13:02:59 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 13:02:59 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 13:09:07 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 13:09:07 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 13:09:07 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 13:09:07 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 13:25:57 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 11
+[18-Feb-2026 13:25:57 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 132
+[18-Feb-2026 13:25:57 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 133
+[18-Feb-2026 13:25:57 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/x3msg655/public_html/index.php on line 134
+[18-Feb-2026 16:34:35 Asia/Jakarta] PHP Warning:  Undefined array key "avatar" in /home/x3msg655/public_html/index.php on line 91
+[18-Feb-2026 16:34:35 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 100
+[18-Feb-2026 16:34:35 Asia/Jakarta] PHP Warning:  Undefined array key "icon_type" in /home/x3msg655/public_html/index.php on line 102
+[18-Feb-2026 16:34:35 Asia/Jakarta] PHP Warning:  Undefined array key "icon" in /home/x3msg655/public_html/index.php on line 105
+[18-Feb-2026 16:34:38 Asia/Jakarta] PHP Warning:  Undefined array key "avatar" in /home/x3msg655/public_html/index.php on line 91
+[18-Feb-2026 16:34:38 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 100
+[18-Feb-2026 16:34:38 Asia/Jakarta] PHP Warning:  Undefined array key "icon_type" in /home/x3msg655/public_html/index.php on line 102
+[18-Feb-2026 16:34:38 Asia/Jakarta] PHP Warning:  Undefined array key "icon" in /home/x3msg655/public_html/index.php on line 105
+[18-Feb-2026 16:35:20 Asia/Jakarta] PHP Warning:  Undefined array key "avatar" in /home/x3msg655/public_html/index.php on line 91
+[18-Feb-2026 16:35:20 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 100
+[18-Feb-2026 16:35:20 Asia/Jakarta] PHP Warning:  Undefined array key "icon_type" in /home/x3msg655/public_html/index.php on line 102
+[18-Feb-2026 16:35:20 Asia/Jakarta] PHP Warning:  Undefined array key "icon" in /home/x3msg655/public_html/index.php on line 105
+[18-Feb-2026 16:42:33 Asia/Jakarta] PHP Warning:  Undefined array key "avatar" in /home/x3msg655/public_html/index.php on line 90
+[18-Feb-2026 16:42:33 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 101
+[18-Feb-2026 16:42:33 Asia/Jakarta] PHP Warning:  Undefined array key "icon_type" in /home/x3msg655/public_html/index.php on line 103
+[18-Feb-2026 16:42:33 Asia/Jakarta] PHP Warning:  Undefined array key "icon" in /home/x3msg655/public_html/index.php on line 106
+[18-Feb-2026 18:27:22 Asia/Jakarta] PHP Warning:  Undefined array key "avatar" in /home/x3msg655/public_html/index.php on line 95
+[18-Feb-2026 18:27:22 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 104
+[18-Feb-2026 18:27:22 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 104
+[18-Feb-2026 18:27:22 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 104
+[18-Feb-2026 18:27:22 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 104
+[18-Feb-2026 18:27:22 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 104
+[18-Feb-2026 18:27:22 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 104
+[18-Feb-2026 18:27:22 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 104
+[18-Feb-2026 18:27:22 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 104
+[18-Feb-2026 18:27:22 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 104
+[18-Feb-2026 18:29:38 Asia/Jakarta] PHP Warning:  Undefined array key "avatar" in /home/x3msg655/public_html/index.php on line 88
+[18-Feb-2026 18:29:38 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 99
+[18-Feb-2026 18:29:38 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 99
+[18-Feb-2026 18:29:38 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 99
+[18-Feb-2026 18:29:38 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 99
+[18-Feb-2026 18:29:38 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 99
+[18-Feb-2026 18:29:38 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 99
+[18-Feb-2026 18:29:38 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 99
+[18-Feb-2026 18:29:38 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 99
+[18-Feb-2026 18:29:38 Asia/Jakarta] PHP Warning:  Undefined array key "bg_color" in /home/x3msg655/public_html/index.php on line 99
