@@ -1,0 +1,171 @@
+<?php
+require_once "config.php";
+
+// Ambil Data Profil
+$queryProfile = mysqli_query($conn, "SELECT * FROM profile LIMIT 1");
+$profile = mysqli_fetch_assoc($queryProfile);
+
+// Ambil Data Link Aktif
+$links = mysqli_query($conn, "SELECT * FROM links WHERE status='active' ORDER BY id DESC");
+?>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $profile['name']; ?> - Official Profile</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        /* ===== BASE & RESET ===== */
+        * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            overflow-x: hidden;
+            text-align: center;
+            background: #0f0c29;
+            padding-top: 100px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+        /* ===== NAVBAR (TANPA MENU) ===== */
+        .navbar {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center; /* Logo di tengah karena menu dihapus */
+            align-items: center;
+            padding: 20px 30px;
+            background: rgba(0,0,0,0.7);
+            backdrop-filter: blur(15px);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(0, 234, 255, 0.2);
+        }
+
+        .logo-nav {
+            font-family: 'Orbitron', sans-serif;
+            font-weight: bold;
+            color: #00ffff;
+            letter-spacing: 2px;
+            font-size: 20px;
+            text-shadow: 0 0 10px #00ffff;
+        }
+
+        /* ===== BACKGROUND ===== */
+        #particles-js {
+            position: fixed;
+            width: 100%; height: 100%;
+            top: 0; left: 0;
+            z-index: -1;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* ===== PROFILE ===== */
+        .profile-img {
+            width: 120px; height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #00ffff;
+            box-shadow: 0 0 25px #ff00cc;
+            animation: glow 2s infinite alternate;
+            margin-bottom: 20px;
+        }
+
+        @keyframes glow { from { box-shadow: 0 0 15px #00ffff; } to { box-shadow: 0 0 35px #ff00cc; } }
+
+        h1.profile-name { font-family: 'Orbitron'; font-size: 26px; text-shadow: 0 0 10px #00ffff; margin-bottom: 5px; }
+        .bio { font-size: 14px; color: #cfd8ff; margin-bottom: 40px; opacity: 0.8; }
+
+        /* ===== BUBBLE LINKS (Warna Tetap Sama) ===== */
+        .bubble {
+            display: flex; align-items: center; gap: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            padding: 15px; border-radius: 15px;
+            text-decoration: none; color: white; font-weight: 600;
+            margin-bottom: 12px; border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: 0.3s ease;
+        }
+
+        .bubble:hover { 
+            transform: translateY(-3px); 
+            box-shadow: 0 10px 20px rgba(0, 255, 255, 0.4); 
+            border: 1px solid #00ffff; 
+        }
+
+        .bubble-icon { width: 45px; height: 45px; border-radius: 10px; object-fit: cover; }
+        .bubble span { flex: 1; text-align: left; }
+
+        /* ===== ANIMATION ===== */
+        .fade-item { opacity: 0; transform: translateY(20px); animation: fadeUp 0.6s forwards; }
+        @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+
+    </style>
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo-nav">3MS GAMING</div>
+</header>
+
+<div id="particles-js"></div>
+
+<div class="container">
+    
+    <div class="fade-item">
+        <?php if(!empty($profile['photo'])): ?>
+            <img src="<?php echo $profile['photo']; ?>" class="profile-img">
+        <?php endif; ?>
+        <h1 class="profile-name"><?php echo strtoupper($profile['name']); ?></h1>
+        <div class="bio"><?php echo $profile['bio']; ?></div>
+    </div>
+
+    <div class="links-container">
+        <?php $delay = 0.2; while($row = mysqli_fetch_assoc($links)){ ?>
+            <a href="go.php?id=<?php echo $row['id']; ?>" class="bubble fade-item" style="animation-delay: <?php echo $delay; ?>s;">
+                <?php if($row['photo']){ ?>
+                    <img src="<?php echo $row['photo']; ?>" class="bubble-icon">
+                <?php } ?>
+                <span><?php echo $row['title']; ?></span>
+            </a>
+        <?php $delay += 0.1; } ?>
+    </div>
+
+    <footer>
+        <div style="width:40px; height:2px; background:linear-gradient(90deg, #00ffff, #ff00cc); margin: 50px auto 20px;"></div>
+        <p style="font-size: 12px; opacity: 0.5; letter-spacing: 1px;">
+            © <?php echo date("Y"); ?> <?php echo strtoupper($profile['name']); ?>
+        </p>
+    </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+<script>
+    particlesJS("particles-js", {
+        "particles": {
+            "number": { "value": 60 },
+            "color": { "value": "#00ffff" },
+            "line_linked": { "enable": true, "color": "#ff00cc", "opacity": 0.3 },
+            "move": { "speed": 1.5 }
+        }
+    });
+</script>
+
+</body>
+</html>
